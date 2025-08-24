@@ -1,0 +1,7 @@
+.receipt-print{font-family:ui-monospace,monospace;background:#fff;color:#000}
+.receipt-print .header{text-align:center}
+.receipt-print .title{font-weight:700}
+.receipt-print .sub{font-size:12px}
+.receipt-print .section{margin:8px 0;font-size:14px}
+.receipt-print .footer{text-align:center;margin-top:12px;font-size:12px}
+@media print{body{margin:0} .receipt-print{width:280px}}
